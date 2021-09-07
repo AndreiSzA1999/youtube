@@ -84,30 +84,11 @@ class FirstPage extends StatelessWidget {
                       child: Row(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          SizedBox(
-                            width: 2,
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.symmetric(
-                                horizontal: 10.0, vertical: 3),
-                            child: Container(
-                              width: size.width * 0.10,
-                              decoration: BoxDecoration(
-                                  color: Colors.grey,
-                                  borderRadius: BorderRadius.circular(6)),
-                              height: size.height * 0.2,
-                              child: Center(
-                                child: Icon(Icons.camera_alt),
-                              ),
-                            ),
-                          ),
-                          SizedBox(
-                            width: 2,
-                          ),
+                          SizedBox(width: size.width * 0.05),
                           Padding(
                             padding: const EdgeInsets.symmetric(vertical: 5.0),
                             child: Container(
-                              width: size.width * 0.5,
+                              width: size.width * 0.6,
                               height: size.height,
                               decoration: BoxDecoration(
                                   border: Border.all(color: Colors.grey)),
